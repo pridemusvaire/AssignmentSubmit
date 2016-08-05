@@ -1,0 +1,121 @@
+body {
+  font-family: "Museo Sans 300",Arial, sans-serif; }
+
+.clear {
+  clear: both; }
+
+.center-block {
+  text-align: center; }
+
+.container-fluid {
+  max-width: 1150px;
+  margin: 0 auto; }
+
+a:hover {
+  text-decoration: underline; }
+
+.navbar {
+  border-radius: 0 !important;
+  height: 80px;
+  line-height: 80px;
+  margin-bottom: 0; }
+  .navbar .container-fluid {
+    max-width: 1150px; }
+
+.nav {
+  margin-top: 16px; }
+
+.navbar-default {
+  background: #F5F3F4; }
+  .navbar-default a {
+    color: #4a4a4a; }
+    .navbar-default a:hover {
+      text-decoration: underline; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #4a4a4a; }
+  .navbar-default .navbar-nav > li > a:hover {
+    text-decoration: underline; }
+
+.header {
+  background: #ffffff url("../images/negativespace-background.jpg") no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative; }
+
+.headerText {
+  max-width: 500px;
+  width:  100%;
+  font-family: "Museo Sans 300",Arial,sans-serif;
+  color: #ffffff;
+  position: absolute;
+  top: 30%; }
+  .headerText h1 {
+    font-family: "Museo Sans 300",Arial,sans-serif;
+    font-weight: normal;
+    display: block;
+    color: #47525d;
+    margin: 0 auto;
+    font-size: 47.25px;
+    text-transform: capitalize;
+    color: #ffffff; }
+  .headerText a.startFree {
+    background: #0071E0;
+    padding: 19px 26px;
+    font-size: 21px;
+    line-height: 21px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    border: none;
+    max-width: 200px;
+    margin-top: 50px; }
+    .headerText a.startFree:hover {
+      background: #007ffc; }
+
+.features {
+  max-width: 650px;
+  padding: 90px 0;
+  margin: 0 auto; }
+  .features h1 {
+    margin-bottom: 60px;
+    font-size: 31px; }
+
+.feature {
+  list-style: none;
+  text-align: center; }
+  .feature li {
+    float: left;
+    margin-bottom: 50px;
+    width: 46%;
+    padding: 0 2%; }
+    .feature li img {
+      margin-bottom: 20px; }
+    .feature li h4 {
+      margin: 25px 0 10px 0;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: capitalize; }
+
+.homeMesage {
+  font-size: 21px;
+  text-align: center; }
+
+.footer {
+  width: 100%;
+  min-height: 90px;
+  line-height: 90px;
+  background: #F5F3F4; }
+  .footer .copy {
+    max-width: 300px; }
+  .footer .footer-link li {
+    float: left; }
+    .footer .footer-link li a {
+      display: block;
+      padding: 0 20px;
+      color: #4a4a4a; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,180 @@
+//body
+body {
+  font-family: "Museo Sans 300",Arial, sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+.center-block {
+  text-align: center;
+}
+.container-fluid {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+//nav bar
+.navbar {
+  border-radius: 0 !important;
+  height: 80px;
+  line-height: 80px;
+  margin-bottom: 0;
+
+
+  .container-fluid {
+    max-width: 1150px;
+  }
+
+}
+.nav {
+  margin-top: 16px;
+}
+.navbar-default {
+  background: #F5F3F4;
+
+  a{
+    color: #4a4a4a;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #4a4a4a;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+
+//header
+
+
+.header {
+  background: #ffffff url("../images/negativespace-background.jpg") no-repeat top center;
+  background-size: cover;
+  //max-width: 1070px;
+  width: 100%;
+  height: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.headerText {
+  width: 500px;
+  font-family: "Museo Sans 300",Arial,sans-serif;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+
+  h1 {
+    font-family: "Museo Sans 300",Arial,sans-serif;
+    font-weight: normal;
+    display: block;
+    color: #47525d;
+    margin: 0 auto;
+    font-size: 47.25px;
+    text-transform: capitalize;
+    color: #ffffff;
+  }
+
+  a.startFree{
+    background: #0071E0;
+    padding: 19px 26px;
+    font-size: 21px;
+    line-height: 21px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    border: none;
+    max-width: 200px;
+    margin-top: 50px;
+
+
+    &:hover {
+      background: lighten(#0071E0, 5.5%);;
+    }
+  }
+}
+
+
+//features
+.features {
+  max-width: 650px;
+  padding: 90px 0;
+  margin: 0 auto;
+
+  h1 {
+    margin-bottom: 60px;
+    font-size: 31px;
+
+  }
+
+}
+
+.feature {
+  list-style: none;
+  text-align: center;
+
+  li {
+    float: left;
+    margin-bottom: 50px;
+    width: 46%;
+    padding: 0 2%;
+
+    img {
+      margin-bottom: 20px;
+    }
+
+    h4 {
+      margin: 25px 0 10px 0;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: capitalize;
+    }
+  }
+}
+
+
+.homeMesage {
+  font-size: 21px;
+  text-align: center;
+}
+
+
+//footer
+.footer {
+  width: 100%;
+  height: 90px;
+  line-height: 90px;
+  background: #F5F3F4;
+
+  .copy{
+    max-width: 300px;
+  }
+  .footer-link{
+    li {
+      float: left;
+
+      a{
+        display: block;
+        padding: 0 20px;
+        color: #4a4a4a;
+      }
+    }
+  }
+}
+
+
+
+
+
